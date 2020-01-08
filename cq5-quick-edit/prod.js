@@ -62,7 +62,7 @@ if (window.location.hostname[0] != "m") {
 	} else if (host.localeCompare("www.chevrolet.co.in") == 0) {
 		countryRoot = inBBroot;
 	} else {
-		countryRoot = "ERROR";
+		console.log("- - - - - BB-ERROR - - - - -" + "\nHost: " + window.location.hostname + "\nPathname: " + window.location.pathname + "\n- - - - - - - - - - - - - - -");
 	}
 
 	cq5Url = seg13Root + countryRoot + pathname;
@@ -82,7 +82,7 @@ if (window.location.hostname[0] != "m") {
 	} else if (host.localeCompare("m.chevrolet.co.in") == 0) {
 		countryRoot = inMBroot;
 	} else {
-		countryRoot = "ERROR";
+		console.log("- - - - - MB-ERROR - - - - -" + "\nHost: " + window.location.hostname + "\nPathname: " + window.location.pathname + "\n- - - - - - - - - - - - - - -");
 	}
 
 	cq5Url = seg14Root + countryRoot + pathname;
