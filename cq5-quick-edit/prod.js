@@ -14,8 +14,8 @@
 // @grant        none
 // @version      20.01.08
 // @author       aem-wcm
-// @updateURL    
-// @downloadURL 
+// @updateURL    https://raw.githubusercontent.com/aem-wcm/userscripts/master/cq5-quick-edit/prod.js
+// @downloadURL  https://raw.githubusercontent.com/aem-wcm/userscripts/master/cq5-quick-edit/prod.js
 // ==/UserScript==
 
 /*
